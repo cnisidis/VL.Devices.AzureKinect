@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="FXhAwXcvDLmLrdBs8USiy2" LanguageVersion="2025.7.0-0398-g87d618f7b7" Version="0.128">
-  <NugetDependency Id="CGRGdPSjELiM8Zwqwutmpa" Location="VL.CoreLib" Version="2025.7.0-0398-g87d618f7b7" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="FXhAwXcvDLmLrdBs8USiy2" LanguageVersion="2025.7.1-0010-g7bfcbe76db" Version="0.128">
+  <NugetDependency Id="CGRGdPSjELiM8Zwqwutmpa" Location="VL.CoreLib" Version="2025.7.1-0010-g7bfcbe76db" />
   <Patch Id="QLqDcTOr1wsMLsuNhMjakn">
     <Canvas Id="OnK2FssQOETNWfnJIrAYkA" DefaultCategory="Devices.AzureKinect" CanvasType="FullCategory">
       <!--
@@ -1074,6 +1074,7 @@
                         </Node>
                       </Patch>
                       <ControlPoint Id="HSDo6twuYOYLLPR46cMmvE" Bounds="999,1152" Alignment="Bottom" />
+                      <Pin Id="JV6xEjoP2umOpwWmH9DTVt" Name="Warn" Kind="InputPin" />
                     </Node>
                   </Patch>
                   <ControlPoint Id="CnsW9bE0pEmNlDz5pa5cMn" Bounds="2006,1031" Alignment="Top" />
@@ -1130,6 +1131,7 @@
                   </Patch>
                   <ControlPoint Id="JeeKpNWXN0yMqNHJXOOcEC" Bounds="2352,1449" Alignment="Top" />
                   <ControlPoint Id="ScuF8xTknRfNLJVqUhOgfi" Bounds="2352,1523" Alignment="Bottom" />
+                  <Pin Id="PO71BIAZye8QbNH7NZLeoW" Name="Warn" Kind="InputPin" />
                 </Node>
                 <Link Id="MBXDEla4Hm5NaJAvYo2Gzk" Ids="JeeKpNWXN0yMqNHJXOOcEC,GTXTzxcd0zjP8Z2b8MFLss" />
                 <Link Id="L52tdIwPiOZPZ7TePKDxVZ" Ids="G1kTdNDCNT7OcDZbWMYnFY,JeeKpNWXN0yMqNHJXOOcEC" />
@@ -6969,7 +6971,7 @@
             <ControlPoint Id="GGmtGIUEoa7Mq7gSj4b690" Bounds="101,736" />
             <ControlPoint Id="AfowIZzMqD8O4DXChtp4OD" Bounds="114,84" />
             <ControlPoint Id="VLudhzhRp0qM8bkb6wzuOd" Bounds="392,767" />
-            <Node Bounds="57,124,478,570" Id="QPa019U7bDZNLWsx7RTwVp">
+            <Node Bounds="26,108,703,622" Id="QPa019U7bDZNLWsx7RTwVp">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
@@ -6978,10 +6980,10 @@
               <Pin Id="GvZ04YYVb1tPsEWAY6UFJL" Name="Force" Kind="InputPin" />
               <Pin Id="D5dKn5fMkWvQdMHSzN0ANF" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="QhF7wmUxOrsPsrNylHIKAI" Name="Has Changed" Kind="OutputPin" />
-              <ControlPoint Id="Hv3auBbCmXXOGKRXct74My" Bounds="114,130" Alignment="Top" />
-              <ControlPoint Id="EgvVq50P40gOcyV6z8xEEY" Bounds="100,687" Alignment="Bottom" />
-              <ControlPoint Id="JYcb2wCjBZmO2rI8rXZnOM" Bounds="396,687" Alignment="Bottom" />
-              <ControlPoint Id="GxjEoX2eSBqLeschxp5As4" Bounds="241,687" Alignment="Bottom" />
+              <ControlPoint Id="Hv3auBbCmXXOGKRXct74My" Bounds="114,114" Alignment="Top" />
+              <ControlPoint Id="EgvVq50P40gOcyV6z8xEEY" Bounds="100,724" Alignment="Bottom" />
+              <ControlPoint Id="JYcb2wCjBZmO2rI8rXZnOM" Bounds="396,724" Alignment="Bottom" />
+              <ControlPoint Id="GxjEoX2eSBqLeschxp5As4" Bounds="241,724" Alignment="Bottom" />
               <ControlPoint Id="T4pIwMcSmUpQAkrF3gFoZL" Bounds="585,724" Alignment="Bottom" />
               <Patch Id="RH9ONQmFBLeMuwPMju3W4P" ManuallySortedPins="true">
                 <Patch Id="S5AdBETqej9ONWXcStjSDJ" Name="Create" ManuallySortedPins="true" />
@@ -7046,7 +7048,7 @@
                         </Patch>
                         <ControlPoint Id="OrkUCJJ6mzyMpHMAGHcvHJ" Bounds="408,401" />
                         <ControlPoint Id="FEJpcWeI9IIPucaqvRL70B" Bounds="408,523" />
-                        <Node Bounds="406,473,-24,19" Id="SBpHBuMvpR7N9mi5Q9fBWQ">
+                        <Node Bounds="406,473,43,19" Id="SBpHBuMvpR7N9mi5Q9fBWQ">
                           <p:NodeReference LastCategoryFullName="Devices.AzureKinect.AzureKinectPlayer" LastDependency="VL.Devices.AzureKinect.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="ProcessAppFlag" Name="Player" />
@@ -7245,6 +7247,7 @@
                     </Node>
                     <Patch Id="Gfm6L0GrtiSNRIL9CJpVwL" Name="Dispose" />
                   </Patch>
+                  <Pin Id="VcwaIO7J4TrLbLtwcnMD1W" Name="Warn" Kind="InputPin" />
                 </Node>
               </Patch>
             </Node>
@@ -7371,7 +7374,7 @@
                           </Node>
                         </Patch>
                         <ControlPoint Id="NQuogsUIVBxNs8AiZVXaMU" Bounds="902,1324" Alignment="Bottom" />
-                        <ControlPoint Id="G9atIsgWrFbNFlbUMTKJe3" Bounds="894,1215" Alignment="Top" />
+                        <ControlPoint Id="G9atIsgWrFbNFlbUMTKJe3" Bounds="894,1214" Alignment="Top" />
                       </Node>
                       <Link Id="ODAq5RFNbT8LMnWXGbZUsE" Ids="OtGA2q7ISJlNMW8AFePsmA,I2NWxciC0sALn3Km2MC1jf" />
                       <Link Id="IUtimoQ05KULs3ydd5YHbU" Ids="UuJSsMKamilPEmoa6DvUVg,MtqQkt1ObXDO8zGxfg9QUL" />
@@ -7514,7 +7517,7 @@
                         </p:NodeReference>
                         <Pin Id="GSWsIbLZhE9OLKCjn6HpIu" Name="Condition" Kind="InputPin" />
                         <ControlPoint Id="Tb5vRKO6vYpNL8QAwILuAg" Bounds="1404,1321" Alignment="Bottom" />
-                        <ControlPoint Id="IEBR8NTl9iwLLVNXDh0hsY" Bounds="1382,1215" Alignment="Top" />
+                        <ControlPoint Id="IEBR8NTl9iwLLVNXDh0hsY" Bounds="1382,1214" Alignment="Top" />
                         <Patch Id="SfIqsgN2pa2OJPtufah9Ui" ManuallySortedPins="true">
                           <Patch Id="HdyjpV6hxYCQBLIdvsI5P4" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="P4UZd1YJIkYMfFcxacOkqP" Name="Then" ManuallySortedPins="true" />
@@ -12666,12 +12669,12 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MsqCX6Ttc4CLXiQVDI6QhQ" Location="VL.Skia" Version="2025.7.0-0398-g87d618f7b7" />
-  <NugetDependency Id="KZAfO3faLstMCFyjB36g9Y" Location="System.Numerics.Vectors" Version="4.5.0" />
+  <NugetDependency Id="MsqCX6Ttc4CLXiQVDI6QhQ" Location="VL.Skia" Version="2025.7.1-0010-g7bfcbe76db" />
+  <NugetDependency Id="KZAfO3faLstMCFyjB36g9Y" Location="System.Numerics.Vectors" Version="4.6.1" />
   <NugetDependency Id="BjHHosGh8QaNOegumIQQIC" Location="VL.Skia3d" Version="1.1.2" />
-  <NugetDependency Id="VJjJ4uUjfMCMWx9Df4PSWA" Location="VL.Stride.Runtime" Version="2025.7.0-0398-g87d618f7b7" />
+  <NugetDependency Id="VJjJ4uUjfMCMWx9Df4PSWA" Location="VL.Stride.Runtime" Version="2025.7.1-0010-g7bfcbe76db" />
   <PlatformDependency Id="QFgM5jDAhfxPsQ0SrkSAPc" Location="./dependencies/Microsoft.Azure.Kinect.Sensor/Microsoft.Azure.Kinect.Sensor.dll" />
   <PlatformDependency Id="GML7Urt30mJOajUQRUztY1" Location="./dependencies/Microsoft.Azure.Kinect.Sensor.Record/Microsoft.Azure.Kinect.Sensor.Record.dll" />
-  <PlatformDependency Id="OozQO0nwpsEPSbgKcGPLwJ" Location="VL.Devices.AzureKinect.dll" />
   <PlatformDependency Id="E8PTr2UjiZPMSVOLuShMxn" Location="./lib/netstandard2.0/Microsoft.Azure.Kinect.BodyTracking.dll" />
+  <PlatformDependency Id="HCBtVZ98EfjQZwKxpIdpu9" Location="./lib/net8.0/VL.Devices.AzureKinect.dll" />
 </Document>
